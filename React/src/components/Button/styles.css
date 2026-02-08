@@ -2,18 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   outline: none;
   border: none;
-  padding: 0;
+  padding: 20px 54px ;
   height: 70px;
-  width: 100%;
-  background-color: rgb(82, 82, 241);
-  color: white;
+  width: 470px;
+  background-color: rgba(31, 39, 245, 1);
+  color: #FFFFFF;
   font-size: 20px;
-  font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600; /* Это и есть SemiBold */
+  line-height: 1.5; /* Это 150% */
+  text-align: center;
+  transition: 0.2s;
 }
 
 .button_component:hover {
-  background-color: rgb(104, 104, 233);
+  background-color: #162bc2;
 }

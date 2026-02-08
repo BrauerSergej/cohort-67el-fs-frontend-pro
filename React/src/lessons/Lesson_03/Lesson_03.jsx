@@ -65,13 +65,13 @@ function Lesson_03() {
         />
       </div>
       <div className="button_control">
-        <Button name="Send" />
+        <Button name="Send" type="submit"/>
       </div>
       <div className="button_control">
-        <Button name="Sign up" />
+        <Button name="Sign up" type="submit"/>
       </div>
       <div className="button_control">
-        <Button name="Log in"/>
+        <Button name="Log in" type="submit"/>
       </div>
     </div>
   );
