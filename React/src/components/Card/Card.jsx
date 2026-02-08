@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./styels.css";
 
 function Card() {
   const homer = {
