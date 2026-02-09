@@ -1,0 +1,50 @@
+.card {
+  width: 400px;
+  max-width: 100%;
+  min-height: 300px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  margin: 20px;
+  background-color: lightblue;
+  align-items: center;
+  text-align: center;
+  align-items: stretch; /* Растягиваем элементы по ширине */
+  border: 4px solid orange;
+}
+
+.card_title, .avatar {
+  align-self: center; /* Центрируем только заголовок и фото персонально */
+}
+
+.card_title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid orange;
+  background-color: red;
+}
+
+.info {
+  font-size: 20px;
+  font-style: italic;
+  color: purple;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 20px;
+  font-style: oblique;
+  white-space: normal;
+  text-align: left; /* Текст описания остается слева */
+}
