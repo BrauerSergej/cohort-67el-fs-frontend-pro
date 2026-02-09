@@ -35,7 +35,7 @@ function Lesson_03() {
   };
 
   return (
-    <div className="wrapper_ls_03">
+    <div className="wrapper">
       <h2 className="homework_title">Classwork 03 - Profile Cards</h2>
       <div className="cards_container">
         <Card
@@ -65,13 +65,13 @@ function Lesson_03() {
         />
       </div>
       <div className="button_control">
-        <Button name="Send" type="submit"/>
+        <Button name="Send" />
       </div>
       <div className="button_control">
-        <Button name="Sign up" type="submit"/>
+        <Button name="Sign up" />
       </div>
       <div className="button_control">
-        <Button name="Log in" type="submit"/>
+        <Button name="Log in"/>
       </div>
     </div>
   );
