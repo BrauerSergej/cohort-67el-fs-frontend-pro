@@ -7,12 +7,14 @@ function LoginForm() {
     <form className="login_form">
       <h2 className="form_title">Login form</h2>
       <Input
+        id="email-id"
         label="Email"
         type="email"
         placeholder="Enter your email"
         name="email"
       />
       <Input
+        id="password-id"
         label="Password"
         type="password"
         placeholder="Enter your password"
