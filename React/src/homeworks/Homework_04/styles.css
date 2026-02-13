@@ -1,0 +1,7 @@
+.wrapper_hw_04 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F9FB;
+}
